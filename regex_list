@@ -1,0 +1,4 @@
+# negative lookahead:
+# ^.*plop((?!(aap)|(noot)).)*\Z
+# matches any string containing 'plop' but not 'aap' or 'noot' after 'plop'
+# your regexes:
